@@ -38,7 +38,7 @@ public class Mudanzas : MonoBehaviour
                 cantHoras = cantHoras + 1;
                 Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
             }
-            else{
+            else {
                 Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
             }
             if (pesoDeMudanza > 2000 && pesoDeMudanza <= 5000)
@@ -58,20 +58,20 @@ public class Mudanzas : MonoBehaviour
                 {
                     Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 4500);
                 }
-                   if (pesoDeMudanza <= 2000)
-        {
-            cantHoras = 25 / distanciaEnKm;
-            Debug.Log("El vehiculo necesario para su mudanza sera el utilitario, y dada su distancia " + distanciaEnKm + " el vehiculo durara " + 25 / distanciaEnKm + " horas.");
-            if (cantHoras > 2) {
-                Debug.Log("Su mudanza costara $6000");
-            }
-            if (distanciaEnKm > 50) {
-                cantHoras = cantHoras + 1;
-                Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
-            }
-            else{
-                Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
-            }
+                if (pesoDeMudanza <= 2000)
+                {
+                    cantHoras = 25 / distanciaEnKm;
+                    Debug.Log("El vehiculo necesario para su mudanza sera el utilitario, y dada su distancia " + distanciaEnKm + " el vehiculo durara " + 25 / distanciaEnKm + " horas.");
+                    if (cantHoras > 2) {
+                        Debug.Log("Su mudanza costara $6000");
+                    }
+                    if (distanciaEnKm > 50) {
+                        cantHoras = cantHoras + 1;
+                        Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
+                    }
+                    else {
+                        Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
+                    }
                     if (pesoDeMudanza > 5000 && pesoDeMudanza <= 10000)
                     {
                         cantHoras = 25 / distanciaEnKm;
@@ -93,15 +93,16 @@ public class Mudanzas : MonoBehaviour
                     }
                 }
 
-                
 
 
 
-}
 
-// Update is called once per frame
-void Update()
-    {
-        
-    }
+            }
+
+            // Update is called once per frame
+            void Update()
+            {
+
+            }
+        }
 
