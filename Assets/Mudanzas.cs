@@ -72,7 +72,7 @@ public class Mudanzas : MonoBehaviour
             else{
                 Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
             }
-                    if (pesoDeMudanza > 5000 && pesoDeMudanza <= 9000)
+                    if (pesoDeMudanza > 5000 && pesoDeMudanza <= 10000)
                     {
                         cantHoras = 25 / distanciaEnKm;
                         Debug.Log("El vehiculo necesario para su mudanza sera el camion, y dada su distancia " + distanciaEnKm + " el vehiculo durara " + 25 / distanciaEnKm + " horas.");
@@ -104,4 +104,4 @@ void Update()
     {
         
     }
-}
+
