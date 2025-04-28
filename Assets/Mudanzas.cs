@@ -45,7 +45,7 @@ public class Mudanzas : MonoBehaviour
                 Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
             }
 
-            if (pesoDeMudanza > 2000 && pesoDeMudanza <= 5000)
+        if (pesoDeMudanza > 2000 && pesoDeMudanza <= 5000)
             {
                 cantHoras = 25 / distanciaEnKm;
                 Debug.Log("El vehiculo necesario para su mudanza sera el Pick Up, y dada su distancia " + distanciaEnKm + " el vehiculo durara " + 25 / distanciaEnKm + " horas.");
@@ -62,24 +62,9 @@ public class Mudanzas : MonoBehaviour
                 {
                     Debug.Log("Precio total " + cantHoras + "horas a $4500 es $" + cantHoras * 4500);
                 }
-                if (pesoDeMudanza <= 2000)
-                {
-                    cantHoras = 25 / distanciaEnKm;
-                    Debug.Log("El vehiculo necesario para su mudanza sera el utilitario, y dada su distancia " + distanciaEnKm + " el vehiculo durara " + 25 / distanciaEnKm + " horas.");
-                    if (cantHoras > 2)
-                    {
-                        Debug.Log("Su mudanza costara $6000");
-                    }
-                    if (distanciaEnKm > 50)
-                    {
-                        cantHoras = cantHoras + 1;
-                        Debug.Log("Precio total " + cantHoras + "horas a $3000 es $" + cantHoras * 3000);
-                    }
-                    if (distanciaEnKm < 50 && distanciaEnKm > 1)
-                    {
-                        Debug.Log("Precio total " + cantHoras + "horas a $3000 es $" + cantHoras * 3000);
-                    }
-                    if (pesoDeMudanza > 5000 && pesoDeMudanza <= 10000)
+        
+
+        if (pesoDeMudanza > 5000 && pesoDeMudanza <= 10000)
                     {
                         cantHoras = 25 / distanciaEnKm;
                         Debug.Log("El vehiculo necesario para su mudanza sera el camion, y dada su distancia " + distanciaEnKm + " el vehiculo durara " + 25 / distanciaEnKm + " horas.");
