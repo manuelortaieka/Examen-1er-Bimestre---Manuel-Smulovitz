@@ -93,7 +93,7 @@ public class Mudanzas : MonoBehaviour
                         }
                         else
                         {
-                            Debug.Log("Precio tota l" + cantHoras + "horas a $7000  es : $" + cantHoras * 7000);
+                            Debug.Log("Precio total " + cantHoras + "horas a $7000  es : $" + cantHoras * 7000);
                         }
 
                     }
