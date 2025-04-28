@@ -40,10 +40,11 @@ public class Mudanzas : MonoBehaviour
                 cantHoras = cantHoras + 1;
                 Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
             }
-            else
+            if (distanciaEnKm < 50 && distanciaEnKm > 1)
             {
                 Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
             }
+
             if (pesoDeMudanza > 2000 && pesoDeMudanza <= 5000)
             {
                 cantHoras = 25 / distanciaEnKm;
@@ -57,7 +58,7 @@ public class Mudanzas : MonoBehaviour
                     cantHoras = cantHoras + 1;
                     Debug.Log("Precio total " + cantHoras + "horas a $4500" + ": $" + cantHoras * 4500);
                 }
-                else
+                if (distanciaEnKm < 50 && distanciaEnKm > 1)
                 {
                     Debug.Log("Precio total " + cantHoras + "horas a $4500 es $" + cantHoras * 4500);
                 }
@@ -74,7 +75,7 @@ public class Mudanzas : MonoBehaviour
                         cantHoras = cantHoras + 1;
                         Debug.Log("Precio total " + cantHoras + "horas a $3000 es $" + cantHoras * 3000);
                     }
-                    else
+                    if (distanciaEnKm < 50 && distanciaEnKm > 1)
                     {
                         Debug.Log("Precio total " + cantHoras + "horas a $3000 es $" + cantHoras * 3000);
                     }
@@ -93,7 +94,7 @@ public class Mudanzas : MonoBehaviour
                         }
                         else
                         {
-                            Debug.Log("Precio total " + cantHoras + "horas a $7000  es : $" + cantHoras * 7000);
+                            Debug.Log("Precio total s" + cantHoras + "horas a $7000  es : $" + cantHoras * 7000);
                         }
 
                     }
