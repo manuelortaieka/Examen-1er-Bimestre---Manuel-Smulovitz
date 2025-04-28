@@ -55,11 +55,11 @@ public class Mudanzas : MonoBehaviour
                 if (distanciaEnKm > 50)
                 {
                     cantHoras = cantHoras + 1;
-                    Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 4500);
+                    Debug.Log("Precio total" + cantHoras + "horas a $4500" + ": $" + cantHoras * 4500);
                 }
                 else
                 {
-                    Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 4500);
+                    Debug.Log("Precio total" + cantHoras + "horas a $4500 es $" + cantHoras * 4500);
                 }
                 if (pesoDeMudanza <= 2000)
                 {
@@ -72,11 +72,11 @@ public class Mudanzas : MonoBehaviour
                     if (distanciaEnKm > 50)
                     {
                         cantHoras = cantHoras + 1;
-                        Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
+                        Debug.Log("Precio total" + cantHoras + "horas a $3000 es $" + cantHoras * 3000);
                     }
                     else
                     {
-                        Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 3000);
+                        Debug.Log("Precio total" + cantHoras + "horas a $3000 es $" + cantHoras * 3000);
                     }
                     if (pesoDeMudanza > 5000 && pesoDeMudanza <= 10000)
                     {
@@ -89,11 +89,11 @@ public class Mudanzas : MonoBehaviour
                         if (distanciaEnKm > 50)
                         {
                             cantHoras = cantHoras + 1;
-                            Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 7000);
+                            Debug.Log("Precio total" + cantHoras + "horas a $7000 es $" + cantHoras * 7000);
                         }
                         else
                         {
-                            Debug.Log("Precio total" + cantHoras + "horas a $" + precioHora + ": $" + cantHoras * 7000);
+                            Debug.Log("Precio total" + cantHoras + "horas a $7000  es : $" + cantHoras * 7000);
                         }
 
                     }
